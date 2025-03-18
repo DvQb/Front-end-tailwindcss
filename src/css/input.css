@@ -5,12 +5,32 @@
 
 @layer components {
 
+body{
+    @apply font-be-vietnam 
+}
+
 .wrapper{
    @apply w-[90%] mx-auto overflow-hidden max-w-screen-xl
 }
 
 .button {
-    @apply bg-Bright-Red text-Very-Light-Gray block w-max py-4 px-12 rounded-full
+    @apply bg-Bright-Red text-Very-Light-Gray block w-max py-3 px-8 rounded-full font-medium hover:brightness-150
+}
+
+.footer-area {
+    grid-template-areas: 
+    "form"
+    "navigation"
+    "social-media"
+    "logo"
+    "copy";
+}
+
+.md-footer{
+
+    grid-template-areas: 
+    "logo navigation form"
+    "social-media navigation copy";
 }
 
 

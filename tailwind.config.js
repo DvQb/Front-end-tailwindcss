@@ -5,8 +5,9 @@
         extend: {
 
           fontFamily: {
-            'principal' : [  '"Be Vietnam Pro"', 'sans-serif' ]
+            'be-vietnam': ['"Be Vietnam Pro"', 'sans-serif'],
           },
+          
           colors: {
             "Bright-Red": "#F25F3A",
             'Dark-Blue': 'hsl(228, 39%, 23%)',
